@@ -11,10 +11,11 @@ import numpy as np
 
 # Define constants
 SHUFFLE_BUFFER_SIZE = 300000
+BASE_DIR = "C:\\Your\\NSynth\\Dataset\\Folder\\"
+
 
 def nsynth_dataset(batch_size=32,split="train",exclude_classes=[]):
 
-    BASE_DIR = "C:\\Users\\smonz\\Documents\\Datasets\\"
     DATA_DIR = BASE_DIR + "nsynth-" + split + "\\examples.json"
     AUDIO_DIR = BASE_DIR + "nsynth-" + split + "\\audio"
 

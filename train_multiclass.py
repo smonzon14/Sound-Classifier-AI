@@ -7,7 +7,7 @@ import loader
 import datetime 
 
 # log file directory
-log_dir = "C:\\Users\\smonz\\Documents\\Honors Thesis Project\\GAN\\" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+log_dir = "C:\\Your\\Log\\Folder" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 file_writer = tf.summary.create_file_writer(log_dir) # type: ignore
 
 # Define constants
